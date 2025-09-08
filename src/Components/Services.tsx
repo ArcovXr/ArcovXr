@@ -21,9 +21,9 @@ function Services() {
         Servicios
       </h1>
 
-      <div className="w-full mx-auto  anim_block overflow-hidden md:flex md:px-50">
+      <div className="w-full mx-auto  anim_block overflow-hidden md:flex md:px-15">
         <div>
-          <div className="transition-all hover:cursor-pointer  relative w-[300px] h-[300px] md:w-[610px] md:h-[610px] mx-auto my-10 rounded-4xl bg_opacity_img">
+          <div className="transition-all hover:cursor-pointer  relative w-[300px] h-[300px] md:w-[555px] md:h-[555px] mx-auto rounded-4xl bg_opacity_img">
             <div
               className="absolute w-7/8 h-7/8 rounded-full z-10 "
               style={{
@@ -73,8 +73,8 @@ function Services() {
                   <div
                     onClick={() => setActiveService(i)}
                     className={`
-          group relative md:translate-y-8 -translate-y-32 md:-translate-x-3 -translate-x-42 
-          text-xs flex flex-col items-center justify-center rounded-xl px-4 py-5 text-center w-[160px] 
+          group relative md:-translate-y-1 -translate-y-32 md:-translate-x-2 -translate-x-32 
+          text-xs flex flex-col items-center justify-center rounded-xl px-4 py-5 text-center w-[80px] 
           transition-transform cursor-pointer
           ${
             activeService === i
@@ -127,14 +127,14 @@ function Services() {
           </div>
         </div>
         {activeService !== null && (
-          <div className="lg:h-75 my-40 flex mx-15 lg:ml-20 justify-center relative">
+          <div className="lg:h-145 pt-5 flex mx-15 lg:ml-20 justify-center relative py-10">
             <div className="relative flex flex-col lg:flex-row group w-full lg:w-auto">
               {servicios[activeService].subitems.map((sub, idx) => (
                 <div
                   key={idx}
                   className={`
             absolute top-0 rounded-2xl bg-black border border-gray-800 hover:shadow-sm hover:shadow-white
-            lg:h-full h-70 shadow-lg p-6 flex flex-col justify-center lg:mt-0 mt-10
+            lg:h-full h-130 shadow-lg p-6 flex flex-col justify-center lg:mt-0 mt-10
             text-center transition-all duration-500 cursor-pointer
             ${
               idx === 0
@@ -143,20 +143,21 @@ function Services() {
             }
             lg:group-hover:scale-95 lg:hover:scale-105
           `}
-                            style={{
-            // Solo en desktop se posicionan en fila
-            ...(window.innerWidth >= 1024
-              ? {
-                  position: "absolute",
-                  left: `${idx * 220}px`,
-                  zIndex: servicios[activeService].subitems.length - idx,
-                  width: "280px",
-                }
-              : {
-                  position: "relative",
-                  width: "100%",
-                }),
-          }}
+                  style={{
+                    // Solo en desktop se posicionan en fila
+                    ...(window.innerWidth >= 1024
+                      ? {
+                          position: "absolute",
+                          left: `${idx * 220}px`,
+                          zIndex:
+                            servicios[activeService].subitems.length - idx,
+                          width: "280px",
+                        }
+                      : {
+                          position: "relative",
+                          width: "100%",
+                        }),
+                  }}
                 >
                   <span
                     className="

@@ -11,7 +11,7 @@ function Experiences() {
             viewport={{ once: true }}
         >
             <h1 className="text-4xl font-black">
-                &lt;/Experience&gt;
+                Trayectoria
             </h1>
 
             {/* Proyecto Museo de Patologías VR */}
@@ -92,7 +92,7 @@ function Experiences() {
                 viewport={{ once: true }}
             >
                 <Experience
-                    place="El Bosque Sabana"
+                    place="El Bosque"
                     occ="Aplicaciones Inmersivas en Naturaleza"
                     date="2025 - Actualidad"
                     s_skills={

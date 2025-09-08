@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 import Project_card from "./Project_card";
 
-import { BrainIcon, CameraIcon,  Code2 } from "lucide-react";
+import { BrainIcon, CameraIcon, Code2 } from "lucide-react";
 import { CpuChipIcon } from "@heroicons/react/16/solid";
-
 
 function Projects() {
   return (
@@ -26,14 +25,14 @@ function Projects() {
       >
         <Project_card
           project="Espacios en Realidad Virtual"
-          description="Diseñamos entornos inmersivos en VR que permiten a empresas, instituciones y usuarios vivir experiencias interactivas únicas. Ideales para capacitación, entretenimiento y simulación de procesos."
+          description="Creamos experiencias inmersivas en VR que van desde recorridos de alta resolución, donde es posible explorar espacios con gran realismo, hasta entornos completamente interactivos en los que el usuario se desenvuelve con objetos y situaciones del entorno. Todo acompañado por un agente de IA que actúa como guía y capacitador, complementando la experiencia con información relevante y contextual."
           image="http://i.pinimg.com/1200x/d4/c0/2a/d4c02ab6ea1144040cd0cb1174f39b94.jpg"
           technologies={
             <>
               <BrainIcon className="w-full h-full p-10" />
             </>
           }
-          link={""}
+          link={"/*"}
         />
       </motion.div>
 
@@ -47,14 +46,15 @@ function Projects() {
       >
         <Project_card
           project="Metaversos"
-          description="Creamos mundos virtuales personalizados donde usuarios pueden interactuar, colaborar y explorar. Desde espacios sociales hasta simulaciones corporativas, impulsamos el futuro digital de la conexión humana."
+          description="Desarrollamos experiencias en metaversos que van desde espacios genéricos para la interacción social y la exploración colaborativa, hasta mundos completamente personalizados donde los usuarios pueden interactuar con el entorno y participar en simulaciones únicas. Todo esto acompañado por un asistente de IA que guía, capacita y enriquece la experiencia con información contextual y soporte en tiempo real."
           image="https://i.pinimg.com/736x/29/79/ad/2979ad7f0418cbe6f2afc2745f7bf598.jpg"
           technologies={
             <>
               <BrainIcon className="w-full h-full p-10" />
             </>
           }
-          link={""}
+          link="https://www.spatial.io/s/Center_Template-68be4ffb188d4c2faee39dd8?share=5704062548552014126"
+
         />
       </motion.div>
 
@@ -75,7 +75,7 @@ function Projects() {
               <BrainIcon className="w-full h-full p-10" />
             </>
           }
-          link={""}
+          link={"/*"}
         />
       </motion.div>
 
@@ -89,14 +89,14 @@ function Projects() {
       >
         <Project_card
           project="Capacitación Inmersiva con IA"
-          description="Aplicaciones VR integradas con Inteligencia Artificial que simulan escenarios de entrenamiento. Ideales para educación médica, formación industrial y aprendizaje interactivo."
+          description="Implementamos experiencias de capacitación en entornos VR y AR, ya sea en espacios digitales o mixtos, acompañadas por un asistente de IA especializado en un área específica. Estas experiencias permiten a los participantes formarse de manera inmersiva, interactiva y guiada, optimizando procesos de aprendizaje en sectores como la educación médica, la formación industrial o el entrenamiento corporativo."
           image="https://i.pinimg.com/736x/1c/ea/80/1cea80703c7ae5f94a449399816f6a82.jpg"
           technologies={
             <>
-              <CpuChipIcon className="w-full h-full p-10"/>
+              <CpuChipIcon className="w-full h-full p-10" />
             </>
           }
-          link={""}
+          link={"/*"}
         />
       </motion.div>
 
@@ -110,14 +110,14 @@ function Projects() {
       >
         <Project_card
           project="Asistentes Virtuales Inteligentes"
-          description="Desarrollamos asistentes virtuales personalizados que combinan IA y entornos 3D para ofrecer experiencias de onboarding, soporte educativo y acompañamiento en procesos corporativos."
+          description="Creamos asistentes de IA diseñados para la atención de usuarios y la optimización de procesos internos en tu empresa. Estos asistentes se personalizan según tus necesidades específicas y se integran en interfaces visuales atractivas, potenciadas con elementos 3D para una experiencia más intuitiva, inmersiva y llamativa."
           image="https://i.pinimg.com/1200x/78/47/cf/7847cf026b1694faaa89512623d1672c.jpg"
           technologies={
             <>
-              <CpuChipIcon className="w-full h-full p-10"/>
+              <CpuChipIcon className="w-full h-full p-10" />
             </>
           }
-          link={""}
+          link={"/*"}
         />
       </motion.div>
 
@@ -135,10 +135,10 @@ function Projects() {
           image="https://i.pinimg.com/originals/4d/f0/40/4df040cccfbfcf936c985c763cbe30df.gif"
           technologies={
             <>
-              <Code2 className="w-full h-full p-10"/>
+              <Code2 className="w-full h-full p-10" />
             </>
           }
-          link={""}
+          link={"/Home3D"}
         />
       </motion.div>
 
@@ -156,10 +156,10 @@ function Projects() {
           image="https://i.pinimg.com/736x/7f/65/2d/7f652d18589592134c8ca3010ecd443a.jpg"
           technologies={
             <>
-              <CameraIcon className="w-full h-full p-10"/>
+              <CameraIcon className="w-full h-full p-10" />
             </>
           }
-          link={""}
+          link={"/*"}
         />
       </motion.div>
     </motion.div>

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <motion.div
-      className="m-auto w-2/3 text-left pt-50 outer_block md:mb-100 "
+      className="m-auto w-2/3 text-left pt-30 outer_block md:mb-100 "
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
@@ -17,7 +17,7 @@ const Home = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true }}
       >
-       Welcome to
+       Bienvenidos a
       </motion.div>
 
       <motion.div
@@ -39,7 +39,7 @@ const Home = () => {
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.6 }}
         viewport={{ once: true }}
       >
-        a software consulting studio
+        Consultora en Tecnologías Emergentes
       </motion.div>
 
       <motion.div
@@ -49,7 +49,7 @@ const Home = () => {
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.9 }}
         viewport={{ once: true }}
       >
-        Experts in developing and implementing the latest emerging technologies for busnesses
+        Especialistas en la aplicación de las últimas tecnologías al servicio de las organizaciones.
       </motion.div>
     </motion.div>
   );
