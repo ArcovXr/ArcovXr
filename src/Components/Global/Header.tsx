@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import Nav from "./Nav.tsx";
-import Logo_GitHub_nav from './Logo_GitHub copy.tsx';
+import Nav from "../Home/Nav.tsx";
+import Logo_GitHub_nav from '../Icons/Logo_GitHub copy.tsx';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);

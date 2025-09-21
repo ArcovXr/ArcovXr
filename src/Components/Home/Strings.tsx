@@ -1,7 +1,7 @@
-import AppIcon from "./App_icon";
-import Consultoria_icon from "./Consultoria_icon";
-import DevIcon from "./Dev_icon";
-import RenderIcon from "./Render_icon";
+import AppIcon from "../Icons/App_icon";
+import Consultoria_icon from "../Icons/Consultoria_icon";
+import DevIcon from "../Icons/Dev_icon";
+import RenderIcon from "../Icons/Render_icon";
 import { BrainIcon, ComputerIcon, CpuIcon, Workflow } from "lucide-react";
 
 const servicios = [

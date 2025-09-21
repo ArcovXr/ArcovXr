@@ -1,7 +1,7 @@
-import Logo_ig from "./Logo_instagram";
-import Logo_mail from "./Logo_instagram copy";
-import Logo_LinkedIn from "./Logo_LinkedIn";
-import Logo_wha from "./Logo_whatsapp";
+import Logo_ig from "../Icons/Logo_instagram";
+import Logo_mail from "../Icons/Logo_instagram copy";
+import Logo_LinkedIn from "../Icons/Logo_LinkedIn";
+import Logo_wha from "../Icons/Logo_whatsapp";
 
 function Footer() {
   return (

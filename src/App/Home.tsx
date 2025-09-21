@@ -1,12 +1,12 @@
 
 import './App.css'
-import Header from './Components/Header.tsx'
-import Home from './Components/Home.tsx'
-import About_me from './Components/About_me.tsx'
-import Projects from './Components/Projecs.tsx'
-import Experiences from './Components/Experiences.tsx'
-import Services from './Components/Services.tsx'
-import Footer from './Components/Footer.tsx'
+import Header from '../Components/Global/Header.tsx'
+import Home from '../Components/Home/Home.tsx'
+import About_me from '../Components/Home/About_me.tsx'
+import Projects from '../Components/Home/Projecs.tsx'
+import Experiences from '../Components/Home/Experiences.tsx'
+import Services from '../Components/Home/Services.tsx'
+import Footer from '../Components/Global/Footer.tsx'
 import { useEffect } from 'react'
 
 

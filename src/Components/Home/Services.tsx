@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import servicios from "./strings";
+import servicios from "./Strings";
 
 function Services() {
   const [offset, setOffset] = useState(0);
@@ -138,8 +138,8 @@ function Services() {
             text-center transition-all duration-500 cursor-pointer
             ${
               idx === 0
-                ? "opacity-100 lg:hover:shadow-md lg:group-hover:opacity-4 lg:hover:opacity-100"
-                : "opacity-100 lg:opacity-4 lg:hover:shadow-md lg:hover:opacity-100"
+                ? "opacity-100 lg:hover:shadow-md lg:group-hover:opacity-30 lg:hover:opacity-100"
+                : "opacity-100 lg:opacity-30 lg:hover:shadow-md lg:hover:opacity-100"
             }
             lg:group-hover:scale-95 lg:hover:scale-105
           `}
