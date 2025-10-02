@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import videoFile from "./ArcovXRVI.mov";
 
 const About_me = () => {
   return (
@@ -44,17 +43,13 @@ const About_me = () => {
 
           {/* Video con sonido */}
           <div className="mt-10 hidden w-4/5 mx-auto lg:flex items-center justify-center">
-            <motion.video
-              className="m-auto rounded-3xl shadow-lg"
-              src={videoFile}
-              controls  // 👈 agrega controles para que el usuario pueda activar sonido
-              autoPlay={false} // 👈 mejor quitar autoplay si quieres que suene
-              playsInline
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.9 }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
-              viewport={{ once: false, amount: 0.3 }}
+            <iframe
+              src="https://player.vimeo.com/video/1123763930"
+              className="w-full h-[500px] rounded-2xl shadow-lg"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+              title="Vimeo video player"
             />
           </div>
         </div>

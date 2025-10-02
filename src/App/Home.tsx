@@ -16,10 +16,9 @@ function Home_Main() {
       }, []);
   return (
     <div className="scroll-smooth"> 
-      
       <Header />
 
-      <div id="Home_Main" className='absolute top-0 left-0 w-full '>
+      <div id="Home_Main">
         <Home />
       </div>
 
