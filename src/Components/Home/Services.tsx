@@ -16,7 +16,7 @@ function Services() {
   }, []);
 
   return (
-    <>
+    <div className="mt-200">
       <h1 className="text-4xl font-semibold text-center md:mt-100 mt-80">
         Servicios
       </h1>
@@ -192,7 +192,7 @@ function Services() {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 }
 
