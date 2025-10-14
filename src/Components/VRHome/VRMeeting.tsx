@@ -9,7 +9,7 @@ export default function VRMeeting() {
         {/* Imagen de referencia */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="https://i.pinimg.com/1200x/12/6a/1e/126a1e429fa027775b773b1b44f4ca24.jpg"
+            src="./src/assets/RCEV.jpg"
             className="rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
             alt="Espacio de reuniones virtuales en VR"
           />

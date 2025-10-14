@@ -1,3 +1,4 @@
+import ArcovXrIcon from "../Icons/ArcovXrIcon";
 import SplineScene from "./BgKeyboard";
 
 export default function ThreedHome() {
@@ -11,9 +12,8 @@ export default function ThreedHome() {
             Bienvenidos a
           </div>
 
-          <div className="text-6xl md:text-8xl font-semibold mt-6">
-            <span className="text-white">Arcov</span>
-            <span className="text-cyan-400">Xr</span>
+          <div className="text-6xl md:text-8xl font-semibold mt-6 w-2/3">
+            <ArcovXrIcon/>
           </div>
 
           <div className="text-white font-light text-2xl md:text-3xl mt-6">

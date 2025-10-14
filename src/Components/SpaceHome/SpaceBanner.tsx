@@ -1,3 +1,4 @@
+import ArcovXrIcon from "../Icons/ArcovXrIcon"
 import SpaceBG from "./SpaceBG"
 
 export default function SpaceBanner () {
@@ -11,9 +12,8 @@ export default function SpaceBanner () {
                         Bienvenidos a
                       </div>
             
-                      <div className="text-6xl md:text-8xl font-semibold mt-6">
-                        <span className="text-white">Arcov</span>
-                        <span className="text-cyan-400">Xr</span>
+                      <div className="text-6xl md:text-8xl font-semibold mt-6 w-2/3">
+                        <ArcovXrIcon/>
                       </div>
             
                       <div className="text-white font-light text-2xl md:text-3xl mt-6">

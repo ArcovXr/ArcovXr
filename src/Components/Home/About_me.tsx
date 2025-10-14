@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const About_me = () => {
   return (
     <motion.section
-      className="m-auto flex flex-col rounded-4xl transition-all bg-cover bg-center md:mb-100 hover:scale-105 lg:hover:scale-100"
+      className="m-auto mt-10 flex flex-col rounded-4xl transition-all bg-cover bg-center md:mb-100 hover:scale-105 lg:hover:scale-100"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 50 }}
@@ -42,9 +42,9 @@ const About_me = () => {
           </div>
 
           {/* Video con sonido */}
-          <div className="mt-10 hidden w-4/5 mx-auto lg:flex items-center justify-center">
+          <div className="mt-10  w-4/5 mx-auto lg:flex items-center justify-center">
             <iframe
-              src="https://player.vimeo.com/video/1123763930"
+              src="https://player.vimeo.com/video/1123767775"
               className="w-full h-[500px] rounded-2xl shadow-lg"
               frameBorder="0"
               allow="autoplay; fullscreen; picture-in-picture"

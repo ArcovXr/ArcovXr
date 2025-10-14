@@ -1,17 +1,18 @@
+import ArcovXrIcon from "../Icons/ArcovXrIcon";
+
 export default function  () {
     return (
 <>
           <div>
-            <img src="https://i.pinimg.com/1200x/f6/31/69/f63169943566abde95830a447db306ef.jpg" className="w-full absolute top-0 left-0 h-full object-cover opacity-20 object-top"/>
+            <img src="./src/assets/CIABANN.jpg" className="w-full absolute top-0 left-0 h-full object-cover opacity-70 object-top"/>
     
             <div className=" mx-auto w-2/3 text-left pt-32 outer_block md:mb-24 relative">
               <div className="text-gray-400 text-xl md:text-2xl">
                 Bienvenidos a
               </div>
     
-              <div className="text-6xl md:text-8xl font-semibold mt-6">
-                <span className="text-white">Arcov</span>
-                <span className="text-cyan-400">Xr</span>
+              <div className="text-6xl md:text-8xl font-semibold mt-6 w-2/3">
+                <ArcovXrIcon/>
               </div>
     
               <div className="text-white font-light text-2xl md:text-3xl mt-6">

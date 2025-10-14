@@ -3,7 +3,7 @@ const Logo_GitHub_nav = () => {
     <div className="flex lg:w-10 w-10 gap-5  justify-between">
 
     <svg
-     onClick={() => window.open("https://www.linkedin.com/in/juan-jose-ria%C3%B1o-zabaleta-86320a2a3/", '_blank')}
+     onClick={() => window.open("https://www.linkedin.com/company/108922222/", '_blank')}
       viewBox="0 0 24 24"
       style={{ fill: 'rgba(0, 0, 0, 1)' }}
       className="transition-transform transform hover:scale-110 cursor-pointer w-15 h-15"

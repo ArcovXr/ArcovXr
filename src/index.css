@@ -195,10 +195,10 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('https://i.pinimg.com/1200x/d1/77/6a/d1776a6ff3bf2d8cee323cda909c1c6c.jpg');
+  background-image: url('./src/assets/Services.jpg');
   background-size: cover;
-  background-position: center;
-  opacity: 0.3;
+  background-position:left;
+  opacity: 0.5;
   border-radius: 2rem; /* Ajusta si tu imagen tiene border-radius */
   z-index: 0;
 }

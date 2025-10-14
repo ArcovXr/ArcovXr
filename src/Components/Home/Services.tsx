@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import servicios from "./Strings";
+import { Download } from "lucide-react";
 
 function Services() {
   const [offset, setOffset] = useState(0);
@@ -16,10 +17,22 @@ function Services() {
   }, []);
 
   return (
-    <div className="mt-200">
-      <h1 className="text-4xl font-semibold text-center md:mt-100 mt-80">
-        Servicios
-      </h1>
+    <div className="mt-200 md:mt-100 mt-80">
+<div className="flex items-center justify-center gap-4">
+  <h1 className="text-4xl font-semibold text-center">
+    Servicios
+  </h1>
+  <Download
+    className="w-8 hover:cursor-pointer hover:scale-110 transition-all"
+    onClick={() =>
+      window.open(
+        "https://www.canva.com/design/DAGzpcNU610/pk66u8n1YDGBAH_9JOgfVw/edit?utm_content=DAGzpcNU610&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "_blank"
+      )
+    }
+  />
+</div>
+
 
       <div className="w-full mx-auto  anim_block overflow-hidden md:flex md:px-15">
         <div>

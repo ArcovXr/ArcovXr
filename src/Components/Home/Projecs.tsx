@@ -26,7 +26,7 @@ function Projects() {
         <Project_card
           project="Espacios en Realidad Virtual"
           description="Creamos experiencias inmersivas en VR que van desde recorridos de alta resolución, donde es posible explorar espacios con gran realismo, hasta entornos completamente interactivos en los que el usuario se desenvuelve con objetos y situaciones del entorno. Todo acompañado por un agente de IA que actúa como guía y capacitador, complementando la experiencia con información relevante y contextual."
-          image="http://i.pinimg.com/1200x/d4/c0/2a/d4c02ab6ea1144040cd0cb1174f39b94.jpg"
+          image="./src/assets/VR.jpg"
           technologies={<BrainIcon className="w-full h-full p-10" />}
           link={"/HomeVr"}
         />
@@ -60,7 +60,7 @@ function Projects() {
         <Project_card
           project="Realidad Aumentada"
           description="Integramos elementos digitales en el mundo físico para enriquecer la experiencia del usuario. Desde marketing interactivo hasta educación avanzada, llevamos la innovación al día a día."
-          image="https://i.pinimg.com/1200x/b3/3d/3b/b33d3b833f39293ae5cb6035a9d718c1.jpg"   // Imagen inicial
+          image="./src/assets/AR.jpg"   // Imagen inicial
           altImage="https://i.pinimg.com/736x/f3/18/3a/f3183a7419d268638fd6f5185f95f11c.jpg" // Imagen alterna al dar clic
           technologies={<BrainIcon className="w-full h-full p-10" />}
         />
@@ -77,7 +77,7 @@ function Projects() {
         <Project_card
           project="Capacitación Inmersiva con IA"
           description="Implementamos experiencias de capacitación en entornos VR y AR, ya sea en espacios digitales o mixtos, acompañadas por un asistente de IA especializado en un área específica. Estas experiencias permiten a los participantes formarse de manera inmersiva, interactiva y guiada, optimizando procesos de aprendizaje en sectores como la educación médica, la formación industrial o el entrenamiento corporativo."
-          image="https://i.pinimg.com/736x/8b/9e/41/8b9e4127a040cc1a858742ded58857b6.jpg"
+          image="./src/assets/CIA.jpg"
           technologies={<CpuChipIcon className="w-full h-full p-10" />}
           link={"/HomeIA"}
         />

@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className="mt-20 bg-gradient-to-b from-black to-white py-12">
       <div className="text-4xl font-black text-center text-white animate__animated animate__fadeIn animate__delay-1s">
-        Did you like it?
+        ¿Interesado?
       </div>
 
       <div 
@@ -15,7 +15,7 @@ function Footer() {
       
     
       className="text-xl font-bold text-center rounded-4xl   p-2 mt-10 w-50 hover:scale-110  transition-all cursor-pointer mx-auto bg-black hover:cursor-pointer  animate__animated animate__fadeIn animate__delay-2s">
-        Contact us    
+        Contactanos  
       </div>
 
       <div className="mx-auto lg:w-3/8 lg:px-0 px-10">
@@ -36,6 +36,19 @@ function Footer() {
             <Logo_ig />
           </div>
         </div>
+      </div>
+            <div className="w-full flex justify-between px-15 md:text-sm text-xs font-light text-gray-500">
+        <span className="w-50 md:flex hidden">
+          Isaías 43:19
+        </span>
+        <span>
+          © 2025 Juan Jose Riaño.
+            All rights reserved.
+        </span>
+        <span>
+          
+            Hecho con React & Three.js
+        </span>
       </div>
     </div>
   );
